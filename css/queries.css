@@ -1,0 +1,128 @@
+@media only screen and (max-width: 480px) {
+
+  .footer-nav a {
+    text-decoration: none;
+    float: left;
+    padding-right: 0px;
+    color: #2980b9;
+    font-size: 18px;
+    display: inline-block;
+    }
+
+    .footer-link a   {
+      text-decoration: none;
+      color: #2980b9;
+      display: inline;
+      list-style: none;
+      padding-left: 10px;
+      font-size: 25px;
+    }
+
+    input[type=text],
+    input[type=Email],
+    select,
+    textarea {
+      width: 100%;
+      border-radius: 5px;
+      border: 1px solid #2980b9;
+      height: 35px;
+      margin-top:10px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      height: 100px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    input {
+      margin: 20px 0;
+    }
+
+    .hire-section{
+      width: 100%;
+      margin: 0 2%;
+    }
+
+    img {
+      margin: 0;
+      margin-right: 14%;
+    }
+
+    #firstHeading {
+      width: 100%;
+      text-align: center;
+      display: inline;
+
+    }
+
+  }
+
+@media only screen and (max-width: 767px) {
+
+
+  .nav li {
+    display: inline-block;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .textarea {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 2%;
+  }
+
+  .footer-nav a {
+    margin-left: 2%;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .logo {
+    display: inline-block;
+    color: #ecf0f1;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 40px;
+    cursor:pointer;
+  }
+
+  .box {
+    line-height: 145%;
+    margin-top: 50px 10px;
+
+  }
+
+  .footer-link a   {
+    text-decoration: none;
+    list-style: none;
+    color: #2980b9;
+    list-style: none;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+
+}
